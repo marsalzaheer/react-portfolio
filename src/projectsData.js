@@ -5,7 +5,7 @@ const projects = [
     category: 'Frontend Development',
     date: '24 September, 2025',
     video: '/videos/portfolio-main.mp4',
-    github: 'https://github.com/marsalzaheer',
+    github: 'https://github.com/marsalzaheer/react-portfolio/',
     shortDescription: 'A modern, responsive portfolio website built with React and Vite.',
     description: `
       This is a responsive Single-Page Application (SPA) portfolio website built using React and Vite. 
