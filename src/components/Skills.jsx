@@ -30,7 +30,7 @@ const Skills = () => {
               </div>
 
               <div className="progress">
-                <h3>Python - Django<span>80%</span></h3>
+                <h3>Python - Django<span>70%</span></h3>
                 <div className="bar"><span></span></div>
               </div>
 

@@ -13,6 +13,8 @@ import Projects from './components/Projects';
 import ProjectDetail from './components/ProjectDetail';
 import ReadMoreAbout from './components/ReadMoreAbout';
 import ReadMoreServices from './components/ReadMoreServices';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 import './style.css';
 

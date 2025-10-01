@@ -3,46 +3,43 @@ import ScrollReveal from 'scrollreveal';
 
 const Contact = () => {
   useEffect(() => {
-    ScrollReveal().reveal('.contact form', { origin: 'bottom' });
+    ScrollReveal().reveal('.contact-links', { origin: 'bottom' });
+    ScrollReveal().reveal('.contact-section-header', { origin: 'top' });
   }, []);
 
   return (
-    <section className="contact" id="contact">
-      <h2 className="heading">Contact <span>Me!</span></h2>
+    <section id="contact" className="contact-section">
+      <div className="contact-section-header">
+        <p className="contact-section-header-title">Let's work together...</p>
+        <p className="contact-section-header-subtitle">I’m just a message away.</p>
+      </div>
+      <div className="contact-links">
+        <a
+          href="https://www.linkedin.com/in/marsalzaheer/"
+          target="_blank"
+          className="btn-contact contact-details"
+          ><i className="fa-brands fa-linkedin"></i> Linkedin</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/marsalzaheer"
+          target="_blank"
+          className="btn-contact contact-details"
+          ><i className="fa-brands fa-github"></i> GitHub</a
+        >
+        <a href="https://www.instagram.com/marsalzaheer/" target="_blank" className="btn-contact contact-details"
+          ><i className="fa-brands fa-instagram"></i> Instagram</a
+        >
+        <a href="mailto:marsalzaheerr@gmail.com" className="btn-contact contact-details"
+          ><i className="fas fa-at"></i> Send a mail</a>
+        <a 
+          href="https://wa.me/923325469954" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn-contact contact-details"
+          ><i className="fab fa-whatsapp"></i> WhatsApp Me</a>
 
-      <form action="#">
-
-        <div className="input-box">
-          <div className="input-field">
-            <input type="text" placeholder="Full Name" required/>
-            <span className="focus"></span>
-          </div>
-          <div className="input-field">
-            <input type="email" placeholder="Email Address" required/>
-            <span className="focus"></span>
-          </div>
-        </div>
-
-        <div className="input-box">
-          <div className="input-field">
-            <input type="number" placeholder="Mobile Number" required/>
-            <span className="focus"></span>
-          </div>
-          <div className="input-field">
-            <input type="text" placeholder="Email Subject" required/>
-            <span className="focus"></span>
-          </div>
-        </div>
-
-        <div className="textarea-field">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-          <span className="focus"></span>
-        </div>
-
-        <div className="btn-box btns">
-          <button type="submit" className="btn">Submit</button>
-        </div>
-      </form>
+      </div>
     </section>
   );
 };
