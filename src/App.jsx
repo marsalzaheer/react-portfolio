@@ -31,7 +31,7 @@ function App() {
     } else {
       document.body.classList.remove('light-theme');
       setIsLightTheme(false);
-      setVideoSrc("/videos/video3.mp4");
+      setVideoSrc("/videos/galaxy.mp4");
     }
 
   }, []); // Run once on mount
@@ -43,7 +43,7 @@ function App() {
       setVideoSrc("/videos/video4.mp4");
       document.body.classList.add('light-theme'); // Add this line
     } else {
-      setVideoSrc("/videos/video4.mp4");
+      setVideoSrc("/videos/galaxy.mp4");
       document.body.classList.remove('light-theme'); // Add this line
     }
   }, [isLightTheme]);

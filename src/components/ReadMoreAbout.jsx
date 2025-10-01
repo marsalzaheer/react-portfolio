@@ -16,7 +16,6 @@ const ReadMoreAbout = () => {
   <Link to="/#about" className="back-button">← Back</Link>
   <div className="about-content">
     <img src="/images/about.png" alt="Arsal" className="profile-pic" />
-    <h1>Arsal</h1>
     <p>
       Hello! I'm Muhammad Arsal Zaheer, a Software Engineering student at the
       National University of Sciences and Technology (NUST), where I am
