@@ -23,17 +23,21 @@ function App() {
   const [isLightTheme, setIsLightTheme] = useState(false); 
   const [videoSrc, setVideoSrc] = useState("");
 
+  const darkVideo = "https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423072/galaxy_pakmfz.mp4";
+  const lightVideo = "https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423433/video4_hub97p.mp4"
+
+
   // Effect to initialize theme and video on component mount
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'light') {
       document.body.classList.add('light-theme');
       setIsLightTheme(true);
-      setVideoSrc("/videos/video4.mp4");
+      setVideoSrc(lightVideo);
     } else {
       document.body.classList.remove('light-theme');
       setIsLightTheme(false);
-      setVideoSrc("/videos/galaxy.mp4");
+      setVideoSrc(darkVideo);
     }
 
   }, []); // Run once on mount
@@ -42,10 +46,10 @@ function App() {
   useEffect(() => {
     console.log('isLightTheme changed:', isLightTheme); // Debug log
     if (isLightTheme) {
-      setVideoSrc("/videos/video4.mp4");
+      setVideoSrc(lightVideo);
       document.body.classList.add('light-theme'); // Add this line
     } else {
-      setVideoSrc("/videos/galaxy.mp4");
+      setVideoSrc(darkVideo);
       document.body.classList.remove('light-theme'); // Add this line
     }
   }, [isLightTheme]);

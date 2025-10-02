@@ -4,7 +4,7 @@ const projects = [
     title: 'React Portfolio Website',
     category: 'Frontend Development',
     date: '24 September, 2025',
-    video: '/videos/portfolio-main.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759425488/portfolio-main_n7bk1w.mp4',
     github: 'https://github.com/marsalzaheer/react-portfolio/',
     shortDescription: 'A modern, responsive portfolio website built with React and Vite.',
     description: `
@@ -36,40 +36,40 @@ const projects = [
       Through this project, I gained practical experience in building scalable SPAs with React, managing state efficiently, 
       and creating an engaging, professional portfolio to showcase my work.
     `,
-    completeVideo: '/videos/portfolio-main.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759425488/portfolio-main_n7bk1w.mp4'
   },  
   {
     id: 2,
     title: 'Blogging App',
     category: 'Full-Stack Development',
     date: '05 August, 2025',
-    video: '/videos/blog.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424043/blog_udoij4.mp4',
     github: 'https://github.com/marsalzaheer/Blog-',
     shortDescription: 'Full-stack app with blogs, micro-posts, media, and admin panel.',
     description: `
       This project started from a simple curiosity: how do platforms like Twitter or WordPress actually work behind the scenes? To find out, I built my own version a full-stack blogging and mini-Twitter style platform. It allows users to write and publish blog posts, share quick micro-updates, upload images, send messages through a contact form, and manage everything through a secure login/signup system with an admin dashboard.
 
       On the technical side, I used Django (Python) for the backend, Bootstrap + HTML/CSS/JavaScript for the frontend, and SQLite for the database. Along the way, I learned how the frontend, backend, and database layers connect in a real-world application, how to handle authentication and file uploads, and how to debug and maintain a system that feels like a small social platform.`,
-    completeVideo: '/videos/blog-complete.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424043/blog_udoij4.mp4'
   },
   {
     id: 3,
     title: 'Food App',
     category: 'E-commerce Platform',
     date: '25 August, 2025',
-    video: '/public/videos/store.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423950/store_fgal2g.mp4',
     github: 'https://github.com/marsalzaheer/Food-Delivery-App',
     shortDescription: 'Prototype with cart, orders, and admin panel.',
     description: "This project came from a simple curiosity: what really happens when we add food to an online cart and place an order? To explore that, I built a food ordering web app prototype not to compete with Foodpanda 😅 but to understand how frontend, backend, and databases communicate. The app includes product listings, a shopping cart that remembers items, an order system powered by Django and SQLite, a working contact form, and an admin panel where I could step into the role of a restaurant manager.\n\nOn the technical side, I used HTML, CSS, Bootstrap, JavaScript, jQuery, Django, SQLite, and Django REST Framework. The focus was less on creating a polished UI and more on connecting the dots between user interactions, backend logic, and stored data. Building it gave me a hands-on understanding of how an e-commerce flow works, and it felt like engineering a small but complete ecosystem with clear paths to scale into payments, authentication, and real-time updates.",
 
-    completeVideo: '/public/videos/store-complete.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423950/store_fgal2g.mp4'
   },
   {
     id: 4,
     title: 'Real Estate Site',
     category: 'Frontend Development',
     date: 'September, 2024',
-    video: '/videos/realestate.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423968/realestate_hkqhwy.mp4',
     github: 'https://github.com/marsalzaheer/realestate-landingpage',
     shortDescription: 'Responsive real estate site with listings, deals, and modern UI.',
     description: `
@@ -78,14 +78,14 @@ const projects = [
       The frontend is fully developed using HTML, CSS, and responsive grid layouts with custom media queries for mobile optimization. The design emphasizes a professional look with gradients, cards, and hover effects to mimic real-world real estate platforms.
   
       Through this project, I learned how to structure a multi-section landing page, manage layout responsiveness, use CSS grids and flexbox effectively, and create a professional presentation of a brand-style website. It's a strong example of applying frontend design principles to a real-world concept.`,
-    completeVideo: '/videos/realestate.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423968/realestate_hkqhwy.mp4'
   },
   {
     id: 5,
     title: 'Portfolio Website',
     category: 'Frontend Development',
     date: 'November, 2024',
-    video: '/videos/portfolio.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424090/portfolio_kstmmf.mp4',
     github: 'https://github.com/marsalzaheer/portfolio-1',
     shortDescription: 'Personal portfolio site showcasing projects, skills, and contact links.',
     description: `
@@ -94,14 +94,14 @@ const projects = [
       The goal was to create a professional online presence that highlights my projects in an organized and visually appealing manner. Each project tile links to live demos or source code, making it easy for visitors to explore my work.
   
       Through this project, I learned how to structure a multipage-like experience within a single-page site, apply responsive layouts using flexbox, and integrate external libraries like Font Awesome for icons. It serves as both a portfolio showcase and a practical demonstration of my frontend development skills.`,
-    completeVideo: '/videos/portfolio.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424090/portfolio_kstmmf.mp4'
   },
   {
   id: 6,
   title: 'React Mini Projects',
   category: 'Frontend Development',
   date: 'September, 2025',
-  video: '/videos/react-mini.mp4',
+  video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424094/react-mini_vedncf.mp4',
   github: 'https://github.com/marsalzaheer/react-learning',
   shortDescription: 'A collection of small React projects exploring hooks, state, routing, and context.',
   description: `
@@ -123,14 +123,14 @@ const projects = [
     Introduced me to the Context API for managing global state without prop drilling, allowing smooth theme toggling across the entire app.
 
     These projects may look small, but each one taught me essential React concepts state, hooks, routing, and context that now form the foundation for building larger, more scalable applications.`,
-  completeVideo: '/videos/react-mini.mp4'
+  completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424094/react-mini_vedncf.mp4'
   },
   {
   id: 7,
   title: 'JavaScript Mini Projects',
   category: 'JavaScript Projects',
   date: '24 September, 2025',
-  video: '/videos/Js-projects.mp4',
+  video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423916/Js-projects_gxhgdb.mp4',
   github: 'https://github.com/marsalzaheer/JS-projects/',
   shortDescription: 'A collection of interactive JavaScript mini projects including games and utilities.',
   description: `
@@ -150,14 +150,14 @@ const projects = [
 
     Together, these projects gave me hands-on practice in JavaScript problem-solving, improving interactivity, and building small-scale yet functional web applications.
   `,
-  completeVideo: '/videos/Js-projects.mp4'
+  completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423916/Js-projects_gxhgdb.mp4'
   },
   {
     id: 8,
     title: 'Netflix Clone',
     category: 'Frontend Development',
     date: 'August, 2024',
-    video: '/videos/netflix.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423932/netflix_bz8vj8.mp4',
     github: 'https://github.com/marsalzaheer/netflix_clone',
     shortDescription: 'Responsive Netflix landing page with modern UI and sections.',
     description: `
@@ -166,14 +166,14 @@ const projects = [
       The main goal was to replicate Netflix’s clean, modern, and responsive UI while practicing layout building with Flexbox, grid, media queries, and background overlays. I also experimented with embedding autoplay videos inside section cards for a more realistic feel.
   
       Through this project, I strengthened my frontend skills in semantic HTML structure, responsive CSS design, and learned how to create visually polished landing pages inspired by real-world platforms.`,
-    completeVideo: '/videos/netflix.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423932/netflix_bz8vj8.mp4'
   },
   {
     id: 9,
     title: 'Amazon Clone',
     category: 'Frontend Development',
     date: 'August, 2024',
-    video: '/videos/amazon.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423935/amazon_otqxke.mp4',
     github: 'https://github.com/marsalzaheer/amazon_clone',
     shortDescription: 'Amazon homepage clone with responsive design and product showcase.',
     description: `
@@ -182,7 +182,7 @@ const projects = [
       The main focus was on practicing structured layouts, using flexbox and CSS grid to build complex sections. The header includes a functional-style search bar and shopping cart icon, while the footer mirrors Amazon’s multi-column layout for links and customer support.
   
       Through this project, I gained experience in replicating large-scale website structures, organizing reusable CSS classes, and creating responsive designs that closely mimic professional e-commerce platforms.`,
-    completeVideo: '/videos/amazon.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423935/amazon_otqxke.mp4'
   },
 
 
