@@ -14,8 +14,8 @@ const ReadMoreAbout = () => {
   return (
 <section className="read-more-about">
   <Link to="/#about" className="back-button">← Back</Link>
-  <div className="about-content">
-    <img src="/images/about.png" alt="Arsal" className="profile-pic" />
+  <div className="about-content">         
+    <img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427387/about_jhmcdw.png" alt="Arsal" className="profile-pic" />
     <p>
       Hello! I'm Muhammad Arsal Zaheer, a Software Engineering student at the
       National University of Sciences and Technology (NUST), where I am

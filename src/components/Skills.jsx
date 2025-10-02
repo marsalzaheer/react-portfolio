@@ -80,15 +80,15 @@ const Skills = () => {
           '--quantity': 9,
           }}>
         <div className="list">
-          <div className="item" style={{ '--position': 1 }}><img src="/images/1.png" alt=""/></div>
-          <div className="item" style={{ '--position': 2 }}><img src="/images/2.png" alt=""/></div>
-          <div className="item" style={{ '--position': 3 }}><img src="/images/3.png" alt=""/></div>
-          <div className="item" style={{ '--position': 4 }}><img src="/images/4.png" alt=""/></div>
-          <div className="item" style={{ '--position': 5 }}><img src="/images/5.png" alt=""/></div>
-          <div className="item" style={{ '--position': 6 }}><img src="/images/6.png" alt=""/></div>
-          <div className="item" style={{ '--position': 7 }}><img src="/images/7.png" alt=""/></div>
-          <div className="item" style={{ '--position': 8 }}><img src="/images/8.png" alt=""/></div>
-          <div className="item" style={{ '--position': 9 }}><img src="/images/9.png" alt=""/></div>
+          <div className="item" style={{ '--position': 1 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427382/1_aulgot.png" alt=""/></div>
+          <div className="item" style={{ '--position': 2 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427396/2_mzs18r.png" alt=""/></div>
+          <div className="item" style={{ '--position': 3 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427394/3_bmdoqh.png" alt=""/></div>
+          <div className="item" style={{ '--position': 4 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427382/4_xhbaov.png" alt=""/></div>
+          <div className="item" style={{ '--position': 5 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427381/5_tiboxr.png" alt=""/></div>
+          <div className="item" style={{ '--position': 6 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427382/6_pns2it.png" alt=""/></div>
+          <div className="item" style={{ '--position': 7 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427382/7_ye9hpk.png" alt=""/></div>
+          <div className="item" style={{ '--position': 8 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427382/8_yxqwhy.png" alt=""/></div>
+          <div className="item" style={{ '--position': 9 }}><img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1759427381/9_eofyo1.png" alt=""/></div>
         </div>
       </div>
     </section>
