@@ -14,38 +14,6 @@ const Education = () => {
       <div className="education-row">
 
         <div className="education-column left">
-          <h3 className="title">Education</h3>
-
-          <div className="education-box">
-
-            <div className="education-content">
-              <div className="content">
-                <div className="year"><i className="bx bxs-calendar"></i> 2024 – Present</div>
-                <h3>Bachelor of Engineering in Software Engineering – NUST (MCS)</h3>
-                <p>Currently pursuing a degree in software engineering, gaining strong foundations in technology and problem-solving.</p>            
-              </div>
-            </div> 
-            
-            <div className="education-content">
-              <div className="content">
-                <div className="year"><i className="bx bxs-calendar"></i> 2022 – 2024</div>
-                <h3>Intermediate (Pre-Engineering) – APS EME Campus, Rawalpindi</h3>
-                <p>Completed higher secondary education with a focus on building analytical and technical skills.</p>            
-              </div>
-            </div> 
-
-            <div className="education-content">
-              <div className="content">
-                <div className="year"><i className="bx bxs-calendar"></i> 2020 – 2022</div>
-                <h3>Matriculation (Computer Science) – APS Pasban Campus, Rawalpindi</h3>
-                <p>Achieved secondary education with a strong interest in computing and logical reasoning.</p>            
-              </div>
-            </div> 
-          </div>
-
-        </div>
-
-        <div className="education-column right">
           <h3 className="title">Experience</h3>
 
           <div className="education-box">
@@ -77,6 +45,40 @@ const Education = () => {
           </div>
 
         </div>
+
+        <div className="education-column right">
+          <h3 className="title">Education</h3>
+
+          <div className="education-box">
+
+            <div className="education-content">
+              <div className="content">
+                <div className="year"><i className="bx bxs-calendar"></i> 2024 – Present</div>
+                <h3>Bachelor of Engineering in Software Engineering – NUST (MCS)</h3>
+                <p>Currently pursuing a degree in software engineering, gaining strong foundations in technology and problem-solving.</p>            
+              </div>
+            </div> 
+            
+            <div className="education-content">
+              <div className="content">
+                <div className="year"><i className="bx bxs-calendar"></i> 2022 – 2024</div>
+                <h3>Intermediate (Pre-Engineering) – APS EME Campus, Rawalpindi</h3>
+                <p>Completed higher secondary education with a focus on building analytical and technical skills.</p>            
+              </div>
+            </div> 
+
+            <div className="education-content">
+              <div className="content">
+                <div className="year"><i className="bx bxs-calendar"></i> 2020 – 2022</div>
+                <h3>Matriculation (Computer Science) – APS Pasban Campus, Rawalpindi</h3>
+                <p>Achieved secondary education with a strong interest in computing and logical reasoning.</p>            
+              </div>
+            </div> 
+          </div>
+
+        </div>
+
+        
 
       </div>
 
