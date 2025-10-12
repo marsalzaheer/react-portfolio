@@ -4,7 +4,7 @@ const projects = [
     title: 'React Portfolio Website',
     category: 'Frontend Development',
     date: '24 September, 2025',
-    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424126/portfolio-main_ws4mft.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759425488/portfolio-main_n7bk1w.mp4',
     github: 'https://github.com/marsalzaheer/react-portfolio/',
     shortDescription: 'A modern, responsive portfolio website built with React and Vite.',
     description: `
@@ -36,7 +36,7 @@ const projects = [
       Through this project, I gained practical experience in building scalable SPAs with React, managing state efficiently, 
       and creating an engaging, professional portfolio to showcase my work.
     `,
-    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424126/portfolio-main_ws4mft.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759425488/portfolio-main_n7bk1w.mp4'
   },  
   {
     id: 2,
