@@ -70,7 +70,7 @@ const projects = [
     title: 'Real Estate Site',
     category: 'Frontend Development',
     date: 'September, 2024',
-    video: '/videos/Realestate.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423968/realestate_hkqhwy.mp4',
     github: 'https://github.com/marsalzaheer/realestate-landingpage',
     shortDescription: 'Responsive real estate site with listings, deals, and modern UI.',
     description: `
@@ -79,14 +79,14 @@ const projects = [
       The frontend is fully developed using HTML, CSS, and responsive grid layouts with custom media queries for mobile optimization. The design emphasizes a professional look with gradients, cards, and hover effects to mimic real-world real estate platforms.
   
       Through this project, I learned how to structure a multi-section landing page, manage layout responsiveness, use CSS grids and flexbox effectively, and create a professional presentation of a brand-style website. It's a strong example of applying frontend design principles to a real-world concept.`,
-    completeVideo: '/videos/Realestate.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423968/realestate_hkqhwy.mp4'
   },
   {
     id: 5,
     title: 'Portfolio Website',
     category: 'Frontend Development',
     date: 'November, 2024',
-    video: '/videos/Portfolio.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424090/portfolio_kstmmf.mp4',
     github: 'https://github.com/marsalzaheer/portfolio-1',
     shortDescription: 'Personal portfolio site showcasing projects, skills, and contact links.',
     description: `
@@ -95,7 +95,7 @@ const projects = [
       The goal was to create a professional online presence that highlights my projects in an organized and visually appealing manner. Each project tile links to live demos or source code, making it easy for visitors to explore my work.
   
       Through this project, I learned how to structure a multipage-like experience within a single-page site, apply responsive layouts using flexbox, and integrate external libraries like Font Awesome for icons. It serves as both a portfolio showcase and a practical demonstration of my frontend development skills.`,
-    completeVideo: '/videos/Portfolio.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424090/portfolio_kstmmf.mp4'
   },
   {
   id: 6,
@@ -131,7 +131,7 @@ const projects = [
   title: 'JavaScript Mini Projects',
   category: 'JavaScript Projects',
   date: '24 September, 2025',
-  video: '/videos/Js-Projects.mp4',
+  video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423916/Js-projects_gxhgdb.mp4',
   github: 'https://github.com/marsalzaheer/JS-projects/',
   shortDescription: 'A collection of interactive JavaScript mini projects including games and utilities.',
   description: `
@@ -151,14 +151,14 @@ const projects = [
 
     Together, these projects gave me hands-on practice in JavaScript problem-solving, improving interactivity, and building small-scale yet functional web applications.
   `,
-  completeVideo: '/videos/Js-Projects.mp4',
+  completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423916/Js-projects_gxhgdb.mp4',
   },
   {
     id: 8,
     title: 'Netflix Clone',
     category: 'Frontend Development',
     date: 'August, 2024',
-    video: '/videos/Netflix.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423932/netflix_bz8vj8.mp4',
     github: 'https://github.com/marsalzaheer/netflix_clone',
     shortDescription: 'Responsive Netflix landing page with modern UI and sections.',
     description: `
@@ -167,14 +167,14 @@ const projects = [
       The main goal was to replicate Netflix’s clean, modern, and responsive UI while practicing layout building with Flexbox, grid, media queries, and background overlays. I also experimented with embedding autoplay videos inside section cards for a more realistic feel.
   
       Through this project, I strengthened my frontend skills in semantic HTML structure, responsive CSS design, and learned how to create visually polished landing pages inspired by real-world platforms.`,
-    completeVideo:'/videos/Netflix.mp4',
+    completeVideo:'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423932/netflix_bz8vj8.mp4',
   },
   {
     id: 9,
     title: 'Amazon Clone',
     category: 'Frontend Development',
     date: 'August, 2024',
-    video: '/videos/Amazon.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423935/amazon_otqxke.mp4',
     github: 'https://github.com/marsalzaheer/amazon_clone',
     shortDescription: 'Amazon homepage clone with responsive design and product showcase.',
     description: `
@@ -183,7 +183,7 @@ const projects = [
       The main focus was on practicing structured layouts, using flexbox and CSS grid to build complex sections. The header includes a functional-style search bar and shopping cart icon, while the footer mirrors Amazon’s multi-column layout for links and customer support.
   
       Through this project, I gained experience in replicating large-scale website structures, organizing reusable CSS classes, and creating responsive designs that closely mimic professional e-commerce platforms.`,
-    completeVideo:'/videos/Amazon.mp4',
+    completeVideo:'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759423935/amazon_otqxke.mp4',
   },
 
 

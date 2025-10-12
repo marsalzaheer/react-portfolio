@@ -11,7 +11,7 @@ const About = () => {
   return (
   <section className="about" id="about">
     <div className="about-img">
-      <img src="/images/marsalzaheer.png" alt=""/>
+      <img src="https://res.cloudinary.com/dtjv7o2mo/image/upload/v1760270015/marsalzaheer_iu4yly.png" alt=""/>
     </div>
 
     <div className="about-content">
