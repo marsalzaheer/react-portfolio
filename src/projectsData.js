@@ -4,7 +4,7 @@ const projects = [
     title: 'React Portfolio Website',
     category: 'Frontend Development',
     date: '24 September, 2025',
-    video: '/public/videos/portfolio-main.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424126/portfolio-main_ws4mft.mp4',
     github: 'https://github.com/marsalzaheer/react-portfolio/',
     shortDescription: 'A modern, responsive portfolio website built with React and Vite.',
     description: `
@@ -36,33 +36,34 @@ const projects = [
       Through this project, I gained practical experience in building scalable SPAs with React, managing state efficiently, 
       and creating an engaging, professional portfolio to showcase my work.
     `,
-    completeVideo: '/public/videos/portfolio-main.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1759424126/portfolio-main_ws4mft.mp4'
   },  
   {
     id: 2,
     title: 'Blogging App',
     category: 'Full-Stack Development',
     date: '05 August, 2025',
-    video: '/public/videos/blog.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1760267876/blog_p2aobk.mp4',
     github: 'https://github.com/marsalzaheer/Blog-',
     shortDescription: 'Full-stack app with blogs, micro-posts, media, and admin panel.',
     description: `
       This project started from a simple curiosity: how do platforms like Twitter or WordPress actually work behind the scenes? To find out, I built my own version a full-stack blogging and mini-Twitter style platform. It allows users to write and publish blog posts, share quick micro-updates, upload images, send messages through a contact form, and manage everything through a secure login/signup system with an admin dashboard.
 
       On the technical side, I used Django (Python) for the backend, Bootstrap + HTML/CSS/JavaScript for the frontend, and SQLite for the database. Along the way, I learned how the frontend, backend, and database layers connect in a real-world application, how to handle authentication and file uploads, and how to debug and maintain a system that feels like a small social platform.`,
-    completeVideo: '/public/videos/blog-complete.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1760267900/blog-complete_gjumsv.mp4'
   },
   {
     id: 3,
     title: 'Food App',
     category: 'E-commerce Platform',
     date: '25 August, 2025',
-    video: '/public/videos/store.mp4',
+    video: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1760266969/store_dd8ifv.mp4',
     github: 'https://github.com/marsalzaheer/Food-Delivery-App',
     shortDescription: 'Prototype with cart, orders, and admin panel.',
     description: "This project came from a simple curiosity: what really happens when we add food to an online cart and place an order? To explore that, I built a food ordering web app prototype not to compete with Foodpanda 😅 but to understand how frontend, backend, and databases communicate. The app includes product listings, a shopping cart that remembers items, an order system powered by Django and SQLite, a working contact form, and an admin panel where I could step into the role of a restaurant manager.\n\nOn the technical side, I used HTML, CSS, Bootstrap, JavaScript, jQuery, Django, SQLite, and Django REST Framework. The focus was less on creating a polished UI and more on connecting the dots between user interactions, backend logic, and stored data. Building it gave me a hands-on understanding of how an e-commerce flow works, and it felt like engineering a small but complete ecosystem with clear paths to scale into payments, authentication, and real-time updates.",
 
-    completeVideo: '/public/videos/store-complete.mp4'
+    completeVideo: 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1760266871/store-complete_u8gfds.mp4'
+
   },
   {
     id: 4,
