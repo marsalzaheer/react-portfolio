@@ -22,6 +22,7 @@
     --second-bg-color: #2A2A2A;
     --text-color: #EAEAEA;
     --main-color: #D9A036;
+    --overlay-bg: rgba(0, 0, 0, 0.9);
 }
 
 .light-theme {
@@ -29,7 +30,8 @@
     --second-bg-color: #e0e6ed;  
     --text-color: #2c2c2c;       
     --main-color: #0077cc;    
-  }
+    --overlay-bg: rgba(255, 255, 255, 0.9);
+}
   
   
 
@@ -49,6 +51,12 @@ body {
     min-height: 100vh;
     /* Ensure body itself is at least full height */
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 
 .container {
     position: relative;
@@ -787,8 +795,6 @@ span {
     transition: all 1s ease-in-out;
 }
 
-
-
 .close-icon {
     font-size: 50px;
     color: lightgray;
@@ -918,10 +924,8 @@ span {
 @media (max-width: 800px) {
     .header {
         box-shadow: 0 0 5px var(--main-color);
-        /* backdrop-filter: blur(4px); */
-
+        background: var(--overlay-bg);
     }
-
 
     .header .logo {
         display: block;
@@ -1464,3 +1468,38 @@ span {
     }
 }
 
+
+/* Fix content sticking & navbar overflow on small screens */
+@media (max-width: 480px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .header {
+    padding: 1rem 4%;
+    justify-content: space-between;
+  }
+
+  .header .navbar {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    gap: 1.5rem;
+    border-radius: 2rem;
+  }
+
+  #menu-icon {
+    display: block;
+    font-size: 2.8rem;
+    margin-left: auto;
+  }
+
+  section {
+    padding: 8rem 5% 5rem 5%;
+  }
+
+  .home-content, .about-content {
+    padding: 0 1rem;
+  }
+
+}
