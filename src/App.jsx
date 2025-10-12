@@ -23,8 +23,8 @@ function App() {
   const [isLightTheme, setIsLightTheme] = useState(false); 
   const [videoSrc, setVideoSrc] = useState("");
 
-  const darkVideo = '/videos/Galaxy.mp4';
-  const lightVideo = '/videos/Video4.mp4';
+  const darkVideo = 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1760275163/Galaxy_njd0et.mp4';
+  const lightVideo = 'https://res.cloudinary.com/dtjv7o2mo/video/upload/v1760275187/Video4_gcbtk0.mp4';
 
 
   // Effect to initialize theme and video on component mount
